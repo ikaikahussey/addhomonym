@@ -1073,3 +1073,70 @@ pre {
 }
 
 /* End auto-generated color cycling */
+
+/* Mobile layout: padding, margins, and type scale (below sidebar breakpoint) */
+@media (max-width: 47.99em) {
+  .sidebar {
+    height: auto;
+    padding: 1.75rem 1.25rem 1.25rem;
+  }
+  .sidebar .container {
+    padding: 0;
+  }
+  .sidebar h1 {
+    font-size: 1.6rem;
+    margin: 0 0 1rem;
+  }
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem 1.25rem;
+  }
+  .sidebar nav li {
+    float: none;
+  }
+  .sidebar-nav-item {
+    line-height: inherit;
+  }
+  .sidebar > .container > div {
+    font-size: .8rem;
+    opacity: .9;
+  }
+  .content,
+  .content.container {
+    padding: 2rem 1.25rem 3rem;
+  }
+  h1, .post-title {
+    font-size: 1.6rem;
+  }
+  .post-title {
+    margin-top: 0;
+  }
+  .post-date {
+    display: block;
+    margin: 0 0 1rem;
+  }
+  .page, .post {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  blockquote {
+    margin: 1rem 0;
+    padding: .25rem 0 .25rem 1rem;
+  }
+  .content p, .content li {
+    overflow-wrap: break-word;
+  }
+  .content ul, .content ol {
+    padding-left: 1.25rem;
+  }
+  .related {
+    padding: 1.5rem 0 0;
+  }
+  .related-posts li {
+    margin-bottom: .75rem;
+  }
+}
